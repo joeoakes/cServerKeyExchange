@@ -1,0 +1,3 @@
+gcc skeMessage.c -o skeMessage -lssl -lcrypto
+
+gcc example.c -o server_key_exchange -lssl -lcrypto
